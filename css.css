@@ -76,3 +76,13 @@ footer ul li a {
     color: #fff;
     text-decoration: none;
 }
+
+.image-container {
+    text-align: center; /* Centra las imágenes horizontalmente */
+}
+
+.image-container img {
+    display: inline-block; /* Hace que las imágenes se muestren una al lado de la otra */
+    vertical-align: top; /* Alinea las imágenes en la parte superior */
+    margin: 0 10px; /* Añade un margen entre las imágenes */
+}
